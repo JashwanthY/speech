@@ -23,6 +23,9 @@ def get_answer(messages):
   
   **Data Set:**\n\n
   
+  - **Annual Sales:** Approximately $2 million\n
+  - **Weekly Sales:** Vary between $25,000 and $45,000 per week\n\n
+  
   1. **Staffing Forecast:**\n
      - Average weekly hours (last 6 weeks): 400 hours\n
      - Predicted increase for next week: 15% due to upcoming promotions and events.\n
@@ -88,6 +91,7 @@ def get_answer(messages):
   - For COGS pricing, refer to the provided chart data.\n
   - For other questions, provide a plausible response using the data or make reasonable assumptions to maintain the flow of conversation."""
 }
+
 ]
     messages = system_message + messages
     response = client.chat.completions.create(
