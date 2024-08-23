@@ -23,7 +23,7 @@ def get_answer(messages):
   
   **Data Set:**\n\n
   
-  - **Annual Sales:** $2 million\n
+  - **Annual Sales:** Approximately $2 million\n
   - **Weekly Sales:** Vary between $25,000 and $45,000 per week\n\n
   
   1. **Staffing Forecast:**\n
